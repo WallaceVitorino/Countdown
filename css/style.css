@@ -1,0 +1,162 @@
+/***FONTS CONFIG***/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+/***STYLE CONFIG GENERAL***/
+:root {
+  --black: #4D4C59;
+  --purple: #6C63FF;
+  --light-grey: #C8C8C8;
+  --text-color: #9C9AB6;
+  --font-family: 'Poppins', sans-serif;
+}
+
+/***TOP & BOTTOM STYLE***/
+
+.top-page{
+  width: 100%;
+  height: auto;
+  left: 0px;
+  top: 0px;
+}
+
+.bottom-page { 
+  width: 100%;
+  height: auto;
+  left: 0px;
+  top: 542px;
+}
+
+/***MAIN POSITION STYLE***/
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 35px;
+}
+
+
+
+.box-rocket {
+  margin-left: 35px;
+}
+
+.box .text-subscribe{
+  width: 349px;
+  height: 21px;
+  left: 196px;
+  top: 405px;
+}
+
+.box #btn-subscribe {
+  width: 160px;
+  height: 46px;
+  left: 290px;
+  top: 457px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.div-subs{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.div-subs .text-subscribe {
+  margin-bottom: 25px;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.listItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.listItem p {
+  margin-bottom: 25px;
+}
+
+.tituloPrincipal {
+  width: 486px;
+  height: 54px;
+  left: 127px;
+  top: 187px;
+  margin-bottom: 25px;
+}
+
+#timer {
+  width: 494px;
+  height: 99px;
+  left: 123px;
+  top: 260px;
+}
+
+/***TEXT STYLE***/
+
+.box .text-subscribe{
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--text-color);
+}
+
+.box #btn-subscribe {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.tituloPrincipal {
+  color: var(--purple);
+  font-family: var(--font-family);
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 0.105em;
+  text-transform: uppercase;
+  line-height: 54px;
+}
+
+.listItem p{
+  color: var(--light-grey);
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.listItem span{
+  color: var(--black);
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 72px;
+}
+
+/***BUTTON STYLE***/
+
+#btn-subscribe {
+  border: none;
+  background: #6C63FF;
+  border-radius: 10px;
+}
+
+#btn-subscribe:hover{
+  transition: 0.5s;
+  background: #6C8FFF;
+  cursor: pointer;
+}
